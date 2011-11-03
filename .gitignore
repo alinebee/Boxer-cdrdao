@@ -1,0 +1,35 @@
+#Ignore Finder metadata files
+.DS_Store
+._*
+
+#No build directories thanks
+build
+
+#Ignore the parts of cdrdao we don't care about
+xdao
+
+# Ignore leftovers from hg
+.hg
+*.orig*
+
+#Ignore Makefiles and other build paraphernalia
+install-sh
+mkinstalldirs
+depcomp
+missing
+Gmake*
+makefile*
+Makefile*
+makerules*
+acinclude.*
+aclocal.*
+
+
+#Ignore user-specific stuff in .xcodeproj bundles
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+xcuserdata
+project.xcworkspace
